@@ -11,6 +11,7 @@ public class Unit7 {
         int sum = 0;
         for (int i = 0; i<list.size(); i++){
             sum += list.get(i);
+        }
         return sum;  // Placeholder return value
     }
 
@@ -31,7 +32,7 @@ public class Unit7 {
     // DO NOT use Collections or other methods beyond size(), add(), get(), set(), and remove().
     public static void doubleAllElements(ArrayList<Integer> list) {
         // TODO: Implement this method
-        int arrayVal
+        int arrayVal;
         for (int i = 0; i < list.size(); i++){
             arrayVal = list.get(i) * 2;
             list.remove(i);
@@ -66,6 +67,7 @@ public class Unit7 {
             if (list.get(i) % 2 == 0){
                 evenList.add(list.get(i));
             }
+        }
         return evenList;  // Placeholder return value
     }
 
