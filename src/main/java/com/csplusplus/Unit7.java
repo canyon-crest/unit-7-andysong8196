@@ -23,6 +23,7 @@ public class Unit7 {
         for (int i = 0; i < list.size(); i++){
             if (list.get(i) == elementToRemove){
                 list.remove(i);
+                i--;
             }
         }
     }
@@ -79,6 +80,7 @@ public class Unit7 {
         for (int i = 0; i < list.size(); i++){
             if (list.get(i) % 5 == 0){
                 list.remove(i);
+                i--;
             }
         }
     }
