@@ -108,7 +108,7 @@ public class Unit7 {
             newList.add(list.size() - i,list.get(index));
             list.remove(index);
         }
-        for (int i = 0; i < list.size; i++){
+        for (int i = 0; i < newList.size(); i++){
             list.add(newList.get(i));
         }
     }
